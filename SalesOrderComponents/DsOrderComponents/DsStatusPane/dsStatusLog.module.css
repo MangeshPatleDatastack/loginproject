@@ -1,0 +1,74 @@
+.container {
+    margin: 1.0rem;
+}
+
+.highlight {
+    display: inline;
+    gap: 0.5rem;
+}
+
+.box {
+    border: 0.1rem solid gray;
+    border-radius: 0.3rem;
+    /* margin: 0.5rem;
+    padding: 0.5rem; */
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.0rem;
+    gap: 0.5rem;
+}
+
+.second {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.0rem;
+}
+
+.comment_para {
+    background-color: #0000000D;
+    padding: 0.5rem;
+    margin: 1.0rem;
+}
+
+.comment {
+    margin-left: 1.0rem;
+}
+
+.status {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem;
+}
+
+.under_approval {
+
+    color: #E2BB1F;
+}
+
+.approved {
+
+    color: #28A745;
+}
+
+.under_review {
+
+    color: #6EC4E8;
+}
+
+.darft {
+    color: #B0B0B0;
+}
+
+.cancelled {
+
+    color: #DC3545;
+}
+
+.ready_to_dispatch {
+
+    color: #DCA500;
+}
+

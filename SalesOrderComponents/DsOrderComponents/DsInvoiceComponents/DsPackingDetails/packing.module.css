@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0.1rem;
+    margin-left: 600px;
+}
+
+.packingList {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.container2 {
+    width: 100%;
+    padding: 1.0rem;
+    /* background-color: var(--background); */
+    opacity: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0.7rem 2.9rem 0px;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+/* .semiContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.semiContainer2_Head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+
+.packingIcons {
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+    /* margin-left: 2.0rem; */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border: 0px !important;
+    border-radius: 2.5rem !important;
+    min-width: 2rem !important;
+    margin-right: 0px !important;
+    /* background-color: aqua !important; */
+    /* width: 2.0rem; */
+}
+
+.icons:hover {
+    background-color: var(--grey-100);
+}
+
+.container3 {
+    /* border: 0.2rem solid var(--danger); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.5rem 1.5rem;
+    margin: 0.7rem 1.5rem;
+    padding: 0.5rem;
+    height: fit-content;
+}
+
+.packingList_Head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.head_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.packingList_details {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.0.5rem solid var(--secondary);
+    border-top: 0.0.5rem solid var(--secondary);
+    padding: 0.3rem;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+.footer_menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.2rem solid var(--secondary);
+    border-bottom: 0.1rem solid var(--secondary);
+    padding: 2.0rem;
+}
+
+.signature {
+    display: flex;
+    flex: 1;
+}
+
+.authSign {
+    justify-content: center;
+    margin-left: 3.0rem;
+    color: var(--secondary);
+}
+
+.date {
+    display: flex;
+    justify-content: space-evenly !important;
+    margin-right: 40%;
+}
+
+.notes {
+    padding: 0.3rem;
+    padding-top: 2.0rem;
+}
+
+.footer_End {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark) !important;
+    color: var(--background) !important;
+    margin-bottom: 0.4rem;
+    padding: 0.5rem;
+    font-size: var(--bodyText);
+}

@@ -1,0 +1,42 @@
+.selectpopContainer{
+    width: 100%;
+    padding: var(--ds-padding);
+    /* margin: var(--ds-margin); */
+}
+ 
+.selectPopUp{
+    width: 100%;
+}
+ 
+.commentField{
+background-color: var(--grey-50);
+}
+ 
+.popupFooter{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+ 
+.approveBtn{
+   color: var(--primary) !important;
+   border: 0.2rem solid var(--primary) !important;
+}
+
+.approveBtn:hover{
+ color: var(--background) !important;
+ background-color: var(--primary) !important;
+}
+
+.rejectBtn {
+     color: var(--danger) !important;
+     border: 0.2rem solid var(--danger) !important;
+}
+     
+.rejectBtn:hover {
+    color: var(--background) !important;
+    background-color: var(--danger) !important;
+}
+     
+ 
+ 

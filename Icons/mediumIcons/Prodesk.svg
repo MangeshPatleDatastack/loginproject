@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 50 50">
+  <defs>
+    <filter id="Path_11913" x="0" y="0" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0faeef" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_811" x="8" y="8" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_812" x="22" y="8" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_813" x="22" y="22" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_814" x="8" y="22" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13500" data-name="Group 13500" transform="translate(-6 -14)">
+    <g transform="matrix(1, 0, 0, 1, 6, 14)" filter="url(#Path_11913)">
+      <path id="Path_11913-2" data-name="Path 11913" d="M4,0H32a4,4,0,0,1,4,4V32a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(6 6)" fill="#0faeef"/>
+    </g>
+    <path id="Path_11912" data-name="Path 11912" d="M-5639-5790v26.931a6.173,6.173,0,0,0,1.4,2.46,4.049,4.049,0,0,0,2.314.868h26.906Z" transform="translate(5652.826 5814)" fill="#fff" opacity="0.24"/>
+    <g id="Group_13078" data-name="Group 13078" transform="translate(6 -69)">
+      <g transform="matrix(1, 0, 0, 1, 0, 83)" filter="url(#Rectangle_811)">
+        <g id="Rectangle_811-2" data-name="Rectangle 811" transform="translate(12 12)" fill="#fff" stroke="#95dbf7" stroke-width="1">
+          <rect width="11" height="11" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="10" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 83)" filter="url(#Rectangle_812)">
+        <g id="Rectangle_812-2" data-name="Rectangle 812" transform="translate(26 12)" fill="#fff" stroke="#95dbf7" stroke-width="1">
+          <rect width="11" height="11" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="10" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 83)" filter="url(#Rectangle_813)">
+        <g id="Rectangle_813-2" data-name="Rectangle 813" transform="translate(26 26)" fill="#fff" stroke="#95dbf7" stroke-width="1">
+          <rect width="11" height="11" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="10" rx="1.5" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 0, 83)" filter="url(#Rectangle_814)">
+        <g id="Rectangle_814-2" data-name="Rectangle 814" transform="translate(12 26)" fill="#fff" stroke="#95dbf7" stroke-width="1">
+          <rect width="11" height="11" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="10" height="10" rx="1.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

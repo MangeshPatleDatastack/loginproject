@@ -1,0 +1,12 @@
+services:
+  stock_allocation_ui:
+    container_name: stock_allocation_ui
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: datastackdevops/stock_allocation_ui:0.0.1
+
+    ports:
+      - 7014:3000
+    volumes:
+      - ./logs:/app\logs:rw
