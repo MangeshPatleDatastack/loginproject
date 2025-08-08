@@ -1,4 +1,4 @@
-import { FetchDataProps } from '../app/Type';
+import { FetchDataProps } from '@/types/type';
 
 const FetchData = async ({
   url,
