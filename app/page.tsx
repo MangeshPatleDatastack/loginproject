@@ -1,5 +1,10 @@
+import { Suspense } from 'react';
 import LoginPage from './LoginPage';
 
 export default function home() {
-  return <LoginPage />;
+  return (
+    <Suspense fallback={<></>}>
+      <LoginPage />
+    </Suspense>
+  );
 }
