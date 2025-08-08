@@ -1,7 +1,7 @@
-import DsPageNotFound from "@/Elements/DsComponents/DsPageNotFound/DsPageNotFound";
- 
+import DsPageNotFound from '@/lib/Elements/DsComponents/DsPageNotFound/DsPageNotFound';
+
 const Custom404 = () => {
-    return <DsPageNotFound />;
+  return <DsPageNotFound />;
 };
- 
+
 export default Custom404;

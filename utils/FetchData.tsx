@@ -1,19 +1,19 @@
-import { FetchDataProps } from "./Type";
- 
+import { FetchDataProps } from '../app/Type';
+
 const FetchData = async ({
   url,
-  method = "GET",
+  method = 'GET',
   dataObject,
 }: FetchDataProps) => {
   try {
     const options: RequestInit = {
       method,
-      headers: { "Content-Type": "application/json" },
-      body: method === "GET" ? null : JSON.stringify(dataObject),
+      headers: { 'Content-Type': 'application/json' },
+      body: method === 'GET' ? null : JSON.stringify(dataObject),
     };
- 
-    const response = await fetch(url, options)
-   
+
+    const response = await fetch(url, options);
+
     return await response.json();
   } catch (error) {
     if (error instanceof Error) {
@@ -22,5 +22,5 @@ const FetchData = async ({
     throw error;
   }
 };
- 
+
 export default FetchData;

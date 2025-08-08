@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "@/Common/globals.css";
-import "@/app/layout.css";
-import DsElLayout from "@/Elements/ERPComponents/DsElLayout/DsElLayout";
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+import '@/lib/Common/globals.css';
+import '@/app/layout.css';
+import DsElLayout from '@/lib/Elements/ERPComponents/DsElLayout/DsElLayout';
 
 const openSans = localFont({
-  src: "../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf",
-  variable: "--font-Open-sans",
-  weight: "100 900",
-}); 
+  src: '../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf',
+  variable: '--font-Open-sans',
+  weight: '100 900',
+});
 
 // //normal fonts
 // const openSans_MediumItalic = localFont({
@@ -228,19 +228,19 @@ const openSans = localFont({
 //   variable: "--font-geist-mono",
 //   weight: "100 900",
 // });
-import { Viewport } from 'next'
+import { Viewport } from 'next';
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
-}
+};
 // const scaleFactor = window.devicePixelRatio;
 // console.log(scaleFactor)
 // document.documentElement.style.setProperty('--scale-factor', scaleFactor.toString());
 export const metadata: Metadata = {
-  title: "ERP",
-  description: "",
+  title: 'ERP',
+  description: '',
 };
 
 export default function RootLayout({
@@ -250,10 +250,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={` ${openSans.variable}`}
-      >
-        <DsElLayout>{children}</DsElLayout>
+      <body className={` ${openSans.variable}`}>
+        {/* <DsElLayout>{children}</DsElLayout> */}
+        {children}
       </body>
     </html>
   );
