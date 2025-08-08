@@ -12,7 +12,8 @@ function loginPage() {
   const searchParams = useSearchParams();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [redirectUrl, setRedirectUrl] = useState('http://localhost:3001');
+  // const [redirectUrl, setRedirectUrl] = useState('http://localhost:3001');
+  const [redirectUrl, setRedirectUrl] = useState('http://172.145.1.109:7008');
   const client = 'SalesOrder';
 
   useEffect(() => {
@@ -45,7 +46,7 @@ function loginPage() {
 
     try {
       const response = await fetch(
-        'http://172.145.1.103:8080/realms/ERP_Project/protocol/openid-connect/token',
+        'http://172.145.1.112:8081/realms/ERP_Project/protocol/openid-connect/token',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
